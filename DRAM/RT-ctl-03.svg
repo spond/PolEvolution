@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="337" id="ctl/RT-ctl-03.svg" width="481" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title id="title">ctl/RT-ctl-03
+</title><style type="text/css"><![CDATA[.mono {
+    font-size: 14px;
+    font-family:  BitstreamVeraSansMono, Monaco, Courier, monospace;
+}
+.tics {
+    stroke: black;
+    stroke-width: .5;
+    font-family: serif;
+    font-size: 10px;
+    text-anchor: middle;
+}
+.vertlines {
+    stroke: black;
+    stroke-width: .5;
+}
+.arrows {
+    stroke: black;
+    stroke-width: .5;
+}
+.label {
+    font-family: serif;
+    font-size: 11px;
+    text-anchor: middle;
+}
+.name {
+    font-family: serif;
+    font-size: 12px;
+    text-anchor: end;
+}
+]]>
+</style>
+<defs >
+<marker id="arrowhead-end" markerHeight="12" markerUnits="strokeWidth" markerWidth="12" orient="auto" refX="24" refY="15" viewBox="0, 0, 30, 30">
+<path d="M 0 0 L 30 15 L 0 30 z" />
+</marker>
+<marker id="arrowhead-start" markerHeight="12" markerUnits="strokeWidth" markerWidth="12" orient="auto" refX="6" refY="15" viewBox="0, 0, 30, 30">
+<path d="M 30 0 L 0 15 L 30 30 z" />
+</marker>
+</defs>
+<rect fill="oldlace" height="337" rx="5" width="481" x="0" y="0" />
+<g class="mono" id="rule">
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=101"><text x="48" y="308">K
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=102"><text x="56" y="308">K
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=103"><text x="64" y="308">K
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=104"><text x="72" y="308">K
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=105"><text x="80" y="308">S
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=106"><text x="88" y="308">V
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=107"><text x="96" y="308">T
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=108"><text x="104" y="308">V
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=109"><text x="112" y="308">L
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=110"><text x="120" y="308">D
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=111"><text x="128" y="308">V
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=112"><text x="136" y="308">G
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=113"><text x="144" y="308">D
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=114"><text x="152" y="308">A
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=115"><text x="160" y="308">Y
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=116"><text x="168" y="308">F
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=117"><text x="176" y="308">S
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=118"><text x="184" y="308">V
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=119"><text x="192" y="308">P
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=120"><text x="200" y="308">L
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=121"><text x="208" y="308">D
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=122"><text x="216" y="308">E
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=123"><text x="224" y="308">D
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=124"><text x="232" y="308">F
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=125"><text x="240" y="308">R
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=126"><text x="248" y="308">K
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=127"><text x="256" y="308">Y
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=128"><text x="264" y="308">T
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=129"><text x="272" y="308">A
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=130"><text x="280" y="308">F
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=131"><text x="288" y="308">T
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=132"><text x="296" y="308">I
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=133"><text x="304" y="308">P
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=134"><text x="312" y="308">S
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=135"><text x="320" y="308">I
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=136"><text x="328" y="308">N
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=137"><text x="336" y="308">N
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=138"><text x="344" y="308">E
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=139"><text x="352" y="308">T
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=140"><text x="360" y="308">P
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=141"><text x="368" y="308">G
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=142"><text x="376" y="308">I
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=143"><text x="384" y="308">R
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=144"><text x="392" y="308">Y
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=145"><text x="400" y="308">Q
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=146"><text x="408" y="308">Y
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=147"><text x="416" y="308">N
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=148"><text x="424" y="308">V
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=149"><text x="432" y="308">L
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;spans=150"><text x="440" y="308">P
+</text>
+</a>
+</g>
+<g class="tics" id="tics">
+<line x1="124" x2="124" y1="309" y2="313" /><text stroke-width="0" x="124" y="322">110
+</text>
+<line x1="204" x2="204" y1="309" y2="313" /><text stroke-width="0" x="204" y="322">120
+</text>
+<line x1="284" x2="284" y1="309" y2="313" /><text stroke-width="0" x="284" y="322">130
+</text>
+<line x1="364" x2="364" y1="309" y2="313" /><text stroke-width="0" x="364" y="322">140
+</text>
+<line x1="444" x2="444" y1="309" y2="313" /><text stroke-width="0" x="444" y="322">150
+</text>
+</g>
+<g class="vertlines" id="vertlines">
+<line x1="56" x2="56" y1="294" y2="263.2" />
+<line x1="64" x2="64" y1="294" y2="249.2" />
+<line x1="80" x2="80" y1="294" y2="235.2" />
+<line x1="96" x2="96" y1="294" y2="207.2" />
+<line x1="104" x2="104" y1="294" y2="179.2" />
+<line x1="144" x2="144" y1="294" y2="249.2" />
+<line x1="152" x2="152" y1="294" y2="235.2" />
+<line x1="168" x2="168" y1="294" y2="137.2" />
+<line x1="176" x2="176" y1="294" y2="123.2" />
+<line x1="184" x2="184" y1="294" y2="95.2" />
+<line x1="192" x2="192" y1="294" y2="81.2" />
+<line x1="208" x2="208" y1="294" y2="249.2" />
+<line x1="240" x2="240" y1="294" y2="137.2" />
+<line x1="248" x2="248" y1="294" y2="235.2" />
+<line x1="256" x2="256" y1="294" y2="123.2" />
+<line x1="264" x2="264" y1="294" y2="25.2" />
+<line x1="328" x2="328" y1="294" y2="39.2" />
+<line x1="336" x2="336" y1="294" y2="25.2" />
+<line x1="376" x2="376" y1="294" y2="165.2" />
+<line x1="400" x2="400" y1="294" y2="277.2" />
+<line x1="408" x2="408" y1="294" y2="263.2" />
+<line x1="416" x2="416" y1="294" y2="249.2" />
+<line x1="432" x2="432" y1="294" y2="221.2" />
+<line x1="440" x2="440" y1="294" y2="165.2" />
+</g>
+<g class="arrows" id="arrows">
+<line marker-end="url(#arrowhead-end)" x1="40" x2="56" y1="280" y2="280" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="144" x2="208" y1="280" y2="280" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="328" x2="400" y1="280" y2="280" />
+<line marker-end="url(#arrowhead-end)" x1="40" x2="56" y1="266" y2="266" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="144" x2="208" y1="266" y2="266" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="336" x2="408" y1="266" y2="266" />
+<line marker-end="url(#arrowhead-end)" x1="40" x2="64" y1="252" y2="252" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="144" x2="208" y1="252" y2="252" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="336" x2="416" y1="252" y2="252" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="80" x2="152" y1="238" y2="238" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="248" x2="328" y1="238" y2="238" />
+<line marker-start="url(#arrowhead-start)" x1="432" x2="456" y1="238" y2="238" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="96" x2="168" y1="224" y2="224" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="256" x2="328" y1="224" y2="224" />
+<line marker-start="url(#arrowhead-start)" x1="432" x2="456" y1="224" y2="224" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="96" x2="168" y1="210" y2="210" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="256" x2="328" y1="210" y2="210" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="104" x2="192" y1="196" y2="196" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="256" x2="328" y1="196" y2="196" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="104" x2="192" y1="182" y2="182" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="264" x2="328" y1="182" y2="182" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="168" x2="240" y1="168" y2="168" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="376" x2="440" y1="168" y2="168" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="168" x2="240" y1="154" y2="154" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="168" x2="240" y1="140" y2="140" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="176" x2="256" y1="126" y2="126" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="184" x2="264" y1="112" y2="112" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="184" x2="264" y1="98" y2="98" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="192" x2="264" y1="84" y2="84" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="264" x2="328" y1="70" y2="70" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="264" x2="328" y1="56" y2="56" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="264" x2="328" y1="42" y2="42" />
+<line marker-end="url(#arrowhead-end)" marker-start="url(#arrowhead-start)" x1="264" x2="336" y1="28" y2="28" />
+</g>
+<g class="label" id="label">
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=93-101;hla=A*0301"><text x="48" y="279">A*0301
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=113-120;hla=A24"><text x="176" y="279">A24
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=136-144;hla=B*1801"><text x="364" y="279">B*1801
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=93-101;hla=A3"><text x="48" y="265">A3
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=113-120;hla=B*5101"><text x="176" y="265">B*5101
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=137-145"><text x="372" y="265">human
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=93-102;hla=A11"><text x="52" y="251">A11
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=113-120;hla=B51"><text x="176" y="251">B51
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=137-146;hla=B18"><text x="376" y="251">B18
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=105-113"><text x="116" y="237">human
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=126-135;hla=A2"><text x="288" y="237">A2
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=149-158;hla=B*5401"><text x="444" y="237">B*5401
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=107-115;hla=B*3501"><text x="132" y="223">B*3501
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=127-135;hla=A*0205"><text x="292" y="223">A*0205
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=149-159;hla=B*3910"><text x="444" y="223">B*3910
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=107-115;hla=B35"><text x="132" y="209">B35
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=127-135;hla=A2"><text x="292" y="209">A2
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=108-118;hla=A*0201"><text x="148" y="195">A*0201
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=127-135;hla=A2 supertype"><text x="292" y="195">A2 supertype
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=108-118;hla=A2"><text x="148" y="181">A2
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=128-135;hla=A*0201"><text x="296" y="181">A*0201
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=116-124;hla=B*5702"><text x="204" y="167">B*5702
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=142-149;hla=B*1401"><text x="408" y="167">B*1401
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=116-124;hla=B*5703"><text x="204" y="153">B*5703
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=116-124;hla=B35"><text x="204" y="139">B35
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=117-126;hla=A11"><text x="216" y="125">A11
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=118-127;hla=B*3501"><text x="224" y="111">B*3501
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=118-127;hla=B35"><text x="224" y="97">B35
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=119-127"><text x="228" y="83">human
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=128-135;hla=A*0217"><text x="296" y="69">A*0217
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=128-135;hla=B*5101"><text x="296" y="55">B*5101
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=128-135;hla=B51"><text x="296" y="41">B51
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=RT;inrange=128-136"><text x="300" y="27">human
+</text>
+</a>
+</g>
+</svg>
