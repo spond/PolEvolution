@@ -9,7 +9,10 @@ be found in this paper: http://www.ncbi.nlm.nih.gov/pubmed/23840830
 USAGE
 -----
 
-	TN93dist <FASTA file> <output file> <distance thershold> < how to handle ambiguities; one of RESOLVE, AVERAGE, SKIP> <output format; one of CSV, HYPHY> [BOOTSTRAP 0 or 1].
+Assuming, you have a command line version of HyPhy installed (GUI versions are 
+OK as well), run the following command:
+
+	HYPHYMP CPU=1 /path/to/PolEvolution
 
 Try it from using the example file in 'data' by typing 
 
