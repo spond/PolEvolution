@@ -157,6 +157,11 @@ SetDialogPrompt ("Save the resulting .CSV file to:");
 fprintf   (PROMPT_FOR_FILE, CLEAR_FILE);
 _masterCSVOutput = LAST_FILE_PATH;
 
+SetDialogPrompt ("Save a .JSON file with divergence plots for all subjects (suitable for plotting using D3) to:");
+fprintf (PROMPT_FOR_FILE, CLEAR_FILE);
+_masterJSONoutput = LAST_FILE_PATH;
+
+
 fprintf (stdout, "\n\n");
 
 DataSetFilter raw_filter = CreateFilter (pol, 1);
@@ -270,8 +275,7 @@ fprintf (R_file, CLEAR_FILE, KEEP_OPEN,
 "), ylim = c (0,", Min(0.05,maxD), "));");
 */
 
-SetDialogPrompt ("Save a .JSON file with divergence plots for all subjects (suitable for plotting using D3) to:");
-fprintf (PROMPT_FOR_FILE, distancesByPID);
+fprintf (_masterJSONoutput, distancesByPID);
 
 //distancesByPID ["plotter"][""];
 
