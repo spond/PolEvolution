@@ -2,8 +2,9 @@ array_dimension = 1000;
 
 
 LoadFunctionLibrary         ("ReadDelimitedFiles");
+SetDialogPrompt             ("The CTL haplotype file in .CSV format");
 
-hla_data = ReadCSVTableText ("../data/hla.csv",1);
+hla_data = ReadCSVTableText ("",1);
 
 needMapFor = {};
 
@@ -116,6 +117,6 @@ for (k = 0; k < Abs (hla_data); k+=1) {
     patient_selector = {1,array_dimension*3}["0"];
     letter_by_index["_haploAPatient"][""];
     feature_filter_by_pid[id] = patient_selector;
-    fprintf (stdout, "[HLA epitopes cover ", (+patient_selector["_MATRIX_ELEMENT_VALUE_>0"])$3, " amino-acid residues for patient `id` based on their hapoltype]\n");
+    fprintf (MESSAGE_LOG, "[CTLParser: HLA epitopes cover ", (+patient_selector["_MATRIX_ELEMENT_VALUE_>0"])$3, " amino-acid residues for patient `id` based on their hapoltype]\n");
 }
 
