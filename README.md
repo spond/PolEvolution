@@ -119,8 +119,17 @@ The results are printed to the screen and also written to the output files (see 
 	##	dN/dS is different between HLA-targeted epitopes and NOT HLA-targeted epitopes,  p-value =  0.967 [LRT =  0.00]
 	##	dN/dS is different between HLA-targeted epitopes and NOT HLA-targeted epitopes in the Dually Infected group,  p-value =  0.674 [LRT =  0.18]
 
-##RESULTS
-
 ##DATA
-	
+
+### Sequences
+
+Input sequences must be 
+
+1. In a format readable in HyPhy (http://hyphy.org/w/index.php/DATA_FILE_PRINT_FORMAT)
+2. Aligned to HXB2 pol __without insertions relative to HXB2__
+3. Each sequence must be named as `ID|YYYY-MM-DD`, where ID is (an abritrary) individual used to collate sequences from the same individual, and the second field is the isoltation date
+4. There must be at least two sequences per individual ID.
+
+
+##RESULTS	
 	
