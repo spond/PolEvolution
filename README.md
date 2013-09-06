@@ -121,7 +121,7 @@ The results are printed to the screen and also written to the output files (see 
 
 ##DATA
 
-### Sequences
+### Sequences [required]
 
 Input sequences must be 
 
@@ -129,6 +129,25 @@ Input sequences must be
 2. Aligned to HXB2 pol __without insertions relative to HXB2__
 3. Each sequence must be named as `ID|YYYY-MM-DD`, where ID is (an abritrary) individual used to collate sequences from the same individual, and the second field is the isoltation date
 4. There must be at least two sequences per individual ID.
+
+See `data/clean_pol.fas` for an example. You can also use the `HBL/PrepareSequenceFile.bf` to ensure the sequences are __conforming__.
+This file will autmatically align everything to HBX2 pol if needed.
+
+### HLA data [optional]
+
+A csv file (with a header) with a two digit haplotype for each individual (OK if some data are missing). 
+See `data/hla.csv`.
+
+### DRAM data [optional]
+
+A csv file (no header) with a list of drugs (standard 3 letter abbreviations, see http://hivdb.stanford.edu). 
+See `data/arv.csv` 
+
+### Group file [optional]
+
+A csv file (with a header) with a `ID,0 or 1` to assign(1) or exclude (0) each individual to a group. 
+See `data/group.csv`.
+
 
 
 ##RESULTS	
