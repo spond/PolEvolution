@@ -24,7 +24,8 @@ OK as well), run the following command:
 
 And enter the following values at the prompts (use HLA information, read HLA information 
 from data/hla.csv in the PolEvolution Directory, do Codon analyses, TN93 model, sequence data from data/clean_pol.fas,
-split subjects into groups based on Dual Infection status read from data/group.csv, and save the results to results/test.csv)
+split subjects into groups based on Dual Infection status read from data/group.csv, 
+and save the results to results/test.{csv,json})
 
 
 <pre>
@@ -86,10 +87,39 @@ Descriptive label for 'positive' patients, e.g. Treated:Dually Infected
 
 [path]/PolEvolution/HBL/Save the resulting .CSV file to::../results/test.csv
 
+[path]/PolEvolution/HBL/Save a .JSON file with divergence plots for all subjects (suitable for plotting using D3) to::../results/test.json
+
 
 </pre>
 
+The results are printed to the screen and also written to the output files (see below):
 
+#### Individual-level analyses
+#####HLA targeted epitopes evolve at different rates than the rest of the sequence in 5 subjects
+
+	##	HLA-targeted epitopes nucleotide rate is significantly faster in 4 subjects
+	##	HLA-targeted epitopes nucleotide rate is significantly slower in 1 subjects
+	
+#####HLA targeted epitopes have different dN/dS than the rest of the sequence in 2 subjects
+	
+	##	Subjects for whom dN/dS differs between HLA-targeted epitopes and NOT HLA-targeted epitopes = 2
+
+#### Global nucleotide analyses
+	##	Global nucleotide substitution rate [not Dually Infected] =     0.0004, 95% CI [   0.000,   0.001] substitutions/site/year
+	##	Global nucleotide substitution rate [Dually Infected] =     0.0225, 95% CI [   0.019,   0.026] substitutions/site/year
+	##	Global nucleotide substitution rate [HLA-targeted epitopes not Dually Infected] =     0.0006, 95% CI [   0.000,   0.002] substitutions/site/year
+	##	Global nucleotide substitution rate [HLA-targeted epitopes Dually Infected] =     0.0285, 95% CI [   0.023,   0.035] substitutions/site/year
+	##	Global nucleotide substitution rate is different between HLA-targeted epitopes and NOT HLA-targeted epitopes  p-value =  0.714 [LRT =  0.13]
+	##	Global nucleotide substitution rate is different between HLA-targeted epitopes and NOT HLA-targeted epitopes in the Dually Infected group,  p-value =  0.068 [LRT =  3.32]
+#### Global codon analyses
+	##	Global dN/dS [not Dually Infected] =     0.5455, 95% CI [   0.091,   1.686] 
+	##	Global dN/dS  [Dually Infected] =     0.1293, 95% CI [   0.098,   0.167] 
+	##	Global dN/dS [HLA-targeted epitopes not Dually Infected] =     0.5182, 95% CI [   0.030,   2.286] 
+	##	Global dN/dS  [HLA-targeted epitopes Dually Infected] =     0.3027, 95% CI [   0.218,   0.407] 
+	##	dN/dS is different between HLA-targeted epitopes and NOT HLA-targeted epitopes,  p-value =  0.967 [LRT =  0.00]
+	##	dN/dS is different between HLA-targeted epitopes and NOT HLA-targeted epitopes in the Dually Infected group,  p-value =  0.674 [LRT =  0.18]
+
+##RESULTS
 
 ##DATA
 	
