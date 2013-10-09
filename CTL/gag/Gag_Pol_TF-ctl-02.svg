@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="127" id="ctl/Gag_Pol_TF-ctl-02.svg" width="129" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title id="title">ctl/Gag_Pol_TF-ctl-02
+</title><style type="text/css"><![CDATA[.mono {
+    font-size: 14px;
+    font-family:  BitstreamVeraSansMono, Monaco, Courier, monospace;
+}
+.tics {
+    stroke: black;
+    stroke-width: .5;
+    font-family: serif;
+    font-size: 10px;
+    text-anchor: middle;
+}
+.vertlines {
+    stroke: black;
+    stroke-width: .5;
+}
+.arrows {
+    stroke: black;
+    stroke-width: .5;
+}
+.label {
+    font-family: serif;
+    font-size: 11px;
+    text-anchor: middle;
+}
+.name {
+    font-family: serif;
+    font-size: 12px;
+    text-anchor: end;
+}
+]]>
+</style>
+<defs >
+<marker id="arrowhead-end" markerHeight="12" markerUnits="strokeWidth" markerWidth="12" orient="auto" refX="24" refY="15" viewBox="0, 0, 30, 30">
+<path d="M 0 0 L 30 15 L 0 30 z" />
+</marker>
+<marker id="arrowhead-start" markerHeight="12" markerUnits="strokeWidth" markerWidth="12" orient="auto" refX="6" refY="15" viewBox="0, 0, 30, 30">
+<path d="M 30 0 L 0 15 L 30 30 z" />
+</marker>
+</defs>
+<rect fill="oldlace" height="127" rx="5" width="129" x="0" y="0" />
+<g class="mono" id="rule">
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF;spans=51"><text x="48" y="98">T
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF;spans=52"><text x="56" y="98">V
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF;spans=53"><text x="64" y="98">S
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF;spans=54"><text x="72" y="98">F
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF;spans=55"><text x="80" y="98">N
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF;spans=56"><text x="88" y="98">F
+</text>
+</a>
+</g>
+<g class="tics" id="tics">
+<line x1="92" x2="92" y1="99" y2="103" /><text stroke-width="0" x="92" y="112">56
+</text>
+</g>
+<g class="vertlines" id="vertlines">
+<line x1="64" x2="64" y1="84" y2="67.2" />
+<line x1="72" x2="72" y1="84" y2="53.2" />
+<line x1="80" x2="80" y1="84" y2="25.2" />
+</g>
+<g class="arrows" id="arrows">
+<line marker-end="url(#arrowhead-end)" x1="40" x2="64" y1="70" y2="70" />
+<line marker-start="url(#arrowhead-start)" x1="72" x2="104" y1="56" y2="56" />
+<line marker-start="url(#arrowhead-start)" x1="80" x2="104" y1="42" y2="42" />
+<line marker-start="url(#arrowhead-start)" x1="80" x2="104" y1="28" y2="28" />
+</g>
+<g class="label" id="label">
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF;inrange=44-52;hla=H-2&lt;sup&gt;d&lt;/sup&gt;"><text x="52" y="69">H-2d
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF-Protease;inrange=54-6;hla=B57"><text x="88" y="55">B57
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF-Protease;inrange=55-12;hla=B51"><text x="92" y="41">B51
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Gag_Pol_TF-Protease;inrange=55-12;hla=B52"><text x="92" y="27">B52
+</text>
+</a>
+</g>
+</svg>

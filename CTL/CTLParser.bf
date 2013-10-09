@@ -1,4 +1,4 @@
-array_dimension = 1000;
+dimensions      = {{1000,500,500}};
 
 
 LoadFunctionLibrary         ("ReadDelimitedFiles");
@@ -47,22 +47,23 @@ lfunction standardizeCTL (in) {
     return result;
 }
 
+
+
 lfunction readSVG (filePath, array_dimension, mappingArray) {
-    fscanf (filePath, REWIND, "Lines", allLines);
+    shifters = {"RT": 99,
+                "Integrase": 660,
+                "p24": 132,
+                "p2p7p1p6": 363,
+                };
+                
+   fscanf (filePath, REWIND, "Lines", allLines);
     // ctl_search?results=Search;protein=RT;inrange=18-26;hla=B*0801
     for (l = 0; l < Columns (allLines); l += 1) {
-        entry = extractSubexpressions (allLines[l], "ctl_search\\?results=Search;protein=([A-Za-z]+);inrange=([0-9]+)\\-([0-9]+);hla=([^\\\"]+)", 0, "");
+        entry = extractSubexpressions (allLines[l], "ctl_search\\?results=Search;protein=([A-Za-z0-9_]+);inrange=([0-9]+)\\-([0-9]+);hla=([^\\\"]+)", 0, "");
         
         if (Abs (entry)) {
-            if (entry[0] == "RT") {
-                residue_shift = 98;
-            } else {
-                if (entry [0] == "Integrase") {
-                    residue_shift = 560 + 99 - 1;
-                } else {
-                    residue_shift = (-1);
-                }
-            }
+            residue_shift = shifters[entry[0]] - 1;
+
             from = 3*(residue_shift + (0+entry[1]));
             to = 3*(residue_shift + (0+entry[2]))-1;
             if (to - from >= 20) {
@@ -85,8 +86,20 @@ lfunction readSVG (filePath, array_dimension, mappingArray) {
 
 ctl_array = {};
 
+ChoiceList (whichGene,"Which gene is being analyzed",1,SKIP_NONE,
+                "pol", "polymerase",
+                "gag", "gag/matrix",
+                "nef", "nef"
+            );
+            
 
-fscanf ("files.lst", "Lines", allFiles);
+assert (whichGene >= 0);
+
+array_dimension = dimensions [whichGene];
+
+list_file = SELECTION_STRINGS + ".lst";            
+            
+fscanf (list_file, "Lines", allFiles);
 
 for (k = 0; k < Columns (allFiles); k += 1) {
     readSVG (allFiles[k], array_dimension, &ctl_array);

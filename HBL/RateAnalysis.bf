@@ -122,7 +122,7 @@ if (whichModel != "GTR") {
 }
 
 
-SetDialogPrompt ("Load the combined HIV polymerase sequence file");
+SetDialogPrompt ("Load the combined HIV sequence file");
 DataSet       pol = ReadDataFile (PROMPT_FOR_FILE);
 
 

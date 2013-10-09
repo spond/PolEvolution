@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="113" id="ctl/Nef-ctl-07.svg" width="129" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title id="title">ctl/Nef-ctl-07
+</title><style type="text/css"><![CDATA[.mono {
+    font-size: 14px;
+    font-family:  BitstreamVeraSansMono, Monaco, Courier, monospace;
+}
+.tics {
+    stroke: black;
+    stroke-width: .5;
+    font-family: serif;
+    font-size: 10px;
+    text-anchor: middle;
+}
+.vertlines {
+    stroke: black;
+    stroke-width: .5;
+}
+.arrows {
+    stroke: black;
+    stroke-width: .5;
+}
+.label {
+    font-family: serif;
+    font-size: 11px;
+    text-anchor: middle;
+}
+.name {
+    font-family: serif;
+    font-size: 12px;
+    text-anchor: end;
+}
+]]>
+</style>
+<defs >
+<marker id="arrowhead-end" markerHeight="12" markerUnits="strokeWidth" markerWidth="12" orient="auto" refX="24" refY="15" viewBox="0, 0, 30, 30">
+<path d="M 0 0 L 30 15 L 0 30 z" />
+</marker>
+<marker id="arrowhead-start" markerHeight="12" markerUnits="strokeWidth" markerWidth="12" orient="auto" refX="6" refY="15" viewBox="0, 0, 30, 30">
+<path d="M 30 0 L 0 15 L 30 30 z" />
+</marker>
+</defs>
+<rect fill="oldlace" height="113" rx="5" width="129" x="0" y="0" />
+<g class="mono" id="rule">
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Nef;spans=201"><text x="48" y="84">E
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Nef;spans=202"><text x="56" y="84">Y
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Nef;spans=203"><text x="64" y="84">F
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Nef;spans=204"><text x="72" y="84">K
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Nef;spans=205"><text x="80" y="84">N
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Nef;spans=206"><text x="88" y="84">C
+</text>
+</a>
+</g>
+<g class="tics" id="tics">
+<line x1="92" x2="92" y1="85" y2="89" /><text stroke-width="0" x="92" y="98">206
+</text>
+</g>
+<g class="vertlines" id="vertlines">
+<line x1="56" x2="56" y1="70" y2="39.2" />
+<line x1="64" x2="64" y1="70" y2="25.2" />
+</g>
+<g class="arrows" id="arrows">
+<line marker-end="url(#arrowhead-end)" x1="40" x2="56" y1="56" y2="56" />
+<line marker-end="url(#arrowhead-end)" x1="40" x2="56" y1="42" y2="42" />
+<line marker-end="url(#arrowhead-end)" x1="40" x2="64" y1="28" y2="28" />
+</g>
+<g class="label" id="label">
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Nef;inrange=188-201;hla=B35"><text x="48" y="55">B35
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Nef;inrange=188-201;hla=Cw4"><text x="48" y="41">Cw4
+</text>
+</a>
+<a target="_top" xlink:href="../../ctl_search?results=Search;protein=Nef;inrange=195-202;hla=A1"><text x="52" y="27">A1
+</text>
+</a>
+</g>
+</svg>
