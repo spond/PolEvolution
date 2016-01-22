@@ -1,4 +1,4 @@
-
+NORMALIZE_SEQUENCE_NAMES  = 0;
 days_per_month = {{31,28,31,30,31,30,31,31,30,31,30,31}};
 
 LoadFunctionLibrary ("ReadDelimitedFiles");
@@ -509,11 +509,15 @@ function runAGlobalModelFitCodon (pids, useAnnotation) {
         }
     }
     
-    
     ExecuteCommands ("LikelihoodFunction codon_join = (" + Join (",", lkFuncComponents) + ");");
  
     Optimize (codon_res, codon_join);
-
+    
+    /*
+    Export (lfs, codon_join);
+    fprintf ("/Volumes/sergei-raid/Desktop/lf-dump.txt", CLEAR_FILE, lfs);
+    */
+    
     COVARIANCE_PARAMETER = "overall_dNdS_rate";
     COVARIANCE_PRECISION = 0.95;
     CovarianceMatrix (cmx,codon_join);
@@ -527,7 +531,8 @@ function runAGlobalModelFitCodon (pids, useAnnotation) {
         COVARIANCE_PARAMETER = "overall_dNdS_rate_diHLA";
         CovarianceMatrix (cmxdiHLA,codon_join);       
     }
-     
+    
+         
     if (groupAnalysis == 0) {
         fprintf (stdout, "\n##\tGlobal dN/dS ", reportMLE (cmx, ""), "\n");    
     } else {
@@ -547,14 +552,14 @@ function runAGlobalModelFitCodon (pids, useAnnotation) {
     
         overall_dNdS_rate    := overall_dNdS_rateHLA;
         Optimize (codon_res_constrained, codon_join);
-        fprintf (stdout, "##\tdN/dS is different between `featureLabel` and NOT `featureLabel`, ", reportTest (codon_res[1][0],codon_res_constrained[1][0],1,0), "\n");
+        fprintf (stdout, "##\tdN/dS is different between `featureLabel` and NOT `featureLabel` (shared dN/dS = `overall_dNdS_rate`), ", reportTest (codon_res[1][0],codon_res_constrained[1][0],1,0), "\n");
         overall_dNdS_rate    = overall_dNdS_rateHLA;
         
         if (groupAnalysis) {
-            overall_dNdS_rateHLA := overall_dNdS_rate_diHLA;
+            overall_dNdS_rate_di := overall_dNdS_rate_diHLA;
             Optimize (codon_res_constrained, codon_join);
-            fprintf (stdout, "##\tdN/dS is different between `featureLabel` and NOT `featureLabel` in the `groupLabel` group, ", reportTest(codon_res[1][0], codon_res_constrained[1][0],1,0), "\n");
-            overall_dNdS_rateHLA = overall_dNdS_rate_diHLA;
+            fprintf (stdout, "##\tdN/dS is different between `featureLabel` and NOT `featureLabel` in the `groupLabel` group (shared dN/dS = `overall_dNdS_rate_di`), ", reportTest(codon_res[1][0], codon_res_constrained[1][0],1,0), "\n");
+            overall_dNdS_rateHLA = overall_dNdS_rate_di;
         }
     } else {
         if (groupAnalysis) {
